@@ -54,6 +54,12 @@
 		   	<version>1.4.193</version>
 		</dependency>
 		
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-tomcat</artifactId>
+		    <scope>provided</scope>
+		</dependency> <!-- 외부에 톰캣을 설치할 경우 해당 디펜던시를 이용하여 셋팅해야한다. (임베디드 톰캣과의 연결을 끊어야 함) -->
+		
 	</dependencies>
 
 	<build>
